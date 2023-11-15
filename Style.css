@@ -1,0 +1,52 @@
+/*Styling for HTML pages */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b6d2d2; /*rgb(233, 241, 236);*/
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #CCD7D8;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 48px;
+    text-align: center;
+    color: #878581;
+}
+
+header p {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-stretch: wider;
+    color: #333;
+}
+
+/* for student class */
+.student {
+    text-align: center;
+    font-size: 28px;
+    color: #4f4e4c;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: wider;
+}
