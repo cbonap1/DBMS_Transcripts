@@ -43,10 +43,44 @@ header p {
 }
 
 /* for student class */
-.student {
+.Student {
     text-align: center;
-    font-size: 28px;
+    font-size: 50px;
     color: #4f4e4c;
     font-family: 'Times New Roman', Times, serif;
     font-stretch: wider;
+    padding-block: 70px;
+}
+
+.Student p {
+    text-align: left;
+}
+
+.Student h1 {
+    font-size: 35px;
+    color: #464544;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: wider;
+    text-align: left;
+}
+
+.Professor {
+    text-align: center;
+    font-size: 50px;
+    color: #4f4e4c;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: wider;
+    padding-block: 70px;
+}
+
+.Professor p {
+    text-align: left;
+}
+
+.Professor h1 {
+    font-size: 35px;
+    color: #464544;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: wider;
+    text-align: left;
 }
