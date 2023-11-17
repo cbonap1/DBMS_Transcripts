@@ -1,5 +1,4 @@
-/*Styling for HTML pages */
-
+/* Styling for HTML pages */
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +6,13 @@
 }
 
 /* Global styles */
+head {
+    background-color: #b6d2d2;
+}
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #b6d2d2; /*rgb(233, 241, 236);*/
+    background-color: #b6d2d2;
     color: #333;
     margin: 0;
     padding: 0;
@@ -18,7 +21,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #CCD7D8;
+    background-color: #b6d2d2;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -28,8 +31,31 @@ header {
     justify-content: center;
 }
 
+nav {
+    background-color: #CCD7D8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header h1 {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 48px;
     text-align: center;
     color: #878581;
@@ -37,7 +63,7 @@ header h1 {
 
 header p {
     font-size: 28px;
-    font-family: 'Times New Roman', Times, serif ;
+    font-family: 'Times New Roman', Times, serif;
     font-stretch: wider;
     color: #333;
 }
