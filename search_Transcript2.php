@@ -15,7 +15,7 @@ ini_set('display_errors', 1);
 	<p><?php 
 		$servername = "localhost";
 		$username = "root"; // Mysql username
-		$password = "Krishmesh4";	// Mysql Password
+		$password = "1234";	// Mysql Password
 
 		$dbname = "UNIVERSITY";	// database name
 		 
