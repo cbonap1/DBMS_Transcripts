@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>My Transcript</title>
+    <style type="text/css">
+      h1 {
+        color:red; 
+      }
+      label {
+        color:cornflowerblue; 
+      }
+      a {
+        color:gold; 
+      }
+    </style>
+</head>
+
+<body>
+        <h1>Retrieve Transcript</h1>
+
+	<!-- The form data is sent with HTTP POST method.-->
+        <form method="post" action="./search_transcript.php">
+
+    <form>
+      <label for="sid">Student ID:</label><br>
+      <input type="text" name="sid"> <br><br>
+
+      <input type="submit" value="Search">
+    </form>
+
+    <nav>
+        <ul>
+            <li><a href="Home.html">Return Home</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
