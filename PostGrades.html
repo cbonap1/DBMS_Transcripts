@@ -19,17 +19,24 @@
           <li><a href="Transcript.html">Retrieve Transcript</a></li>
       </ul>
   </nav>
-  <form>
-    Student ID:
-    <input type="text" name="Studentid"><br>
-    Course ID:
-    <input type="text" name="courseid"><br>
-    Term:
-    <input type="text" name="term"><br>
-    Grade:
-    <input type="text" name="grade"><br>
-    <input type="submit" name="Submit Grade"><br>
-  </form>
+
+  <!-- The form data is sent with HTTP POST method.-->
+  <form method="post" action="./Search_PostGrades.php">
+    
+    <form>
+      <label for="sid">Student ID:</label><br>
+      <input type="text" name="sid"> <br>
+      <label for="cid">Course ID:</label><br>
+      <input type="text" name="cid"> <br>
+      <label for="term">Term:</label><br>
+      <input type="text" name="term"> <br>
+      <label for="grade">Grade:</label><br>
+      <input type="text" name="grade"> <br><br>
+  
+      <input type="submit" value="Submit">
+    </form>
+  
+    <nav>
   </body>
 
 </html>
